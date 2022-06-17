@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cohort-1</title>
+    <link rel="stylesheet" href="./src/main.css">
+    <style>
+        .inner-container {
+            padding: 20px 40px;
+            background: #fff;
+
+        }
+
+
+
+        .box-2 {
+            text-align: left;
+            line-height: 1.4em;
+            border-width: 400px;
+
+        }
+
+
+        .current {
+            color: #fff;
+            background: #565061;
+            width: 100%;
+            padding: 10px 0;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color: lightblue;
+        }
+
+        .terms {
+            color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="inner-container" id="createAccount">
+            <h1> Sign Up</h1>
+            <p>It's free and only takes a minute</p>
+
+            <div class="box">
+                <label for="First Name"></label>
+                <input type="text" id="First Name" name="First Name" placeholder="First Name" required>
+            </div>
+            <div class="box">
+                <label for="Last Name"></label>
+                <input type="text" id="Last Name" name="Last Name" placeholder="Last Name" required>
+            </div>
+
+            <div class="box">
+                <label for="Email"></label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="box">
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="password" required>
+            </div>
+            <div class="box">
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="confirm password" required>
+            </div>
+            <div class="box-2">
+                <a href="questions.html">
+                    <button>sign up</button>
+                  </a>
+            </div>
+            <div>
+                <p> By clicking the sign up button you agree to our
+                    <span class="terms">Terms & conditions</span> and privacy
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./src/main.js"></script>
+</body>
+
+</html>

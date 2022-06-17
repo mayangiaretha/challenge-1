@@ -1,0 +1,116 @@
+body {
+    
+    --border-radius:4px;
+
+
+    margin:0;
+    height:100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8em;
+    background: #565061;
+    justify-content: center;
+    font-size: 18px;
+    background-image: url('./Resources/images/egypt.jpg');
+    
+
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 36px;
+
+
+
+}
+
+.form:hover{
+    color:coral;
+}
+    .form:active{
+        color:red;
+        transform: scale(0.8);
+    }           
+
+.inner-container {
+    padding: 20px 40px;
+
+}
+.outer-container {
+    color: #fff;
+    text-align: center;
+
+}
+
+.link {
+
+    cursor: pointer;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+
+.box {
+    background: f4f4f4;
+    padding-bottom: 20px;
+
+}
+
+.box p {
+    text-align: center;
+    width: 100%;
+
+}
+#text {
+ font-size: small;
+ padding: 0;
+ margin: 0;
+}
+#text:hover {
+ text-decoration: underline;
+}
+
+.box-2 {
+    text-align: left;
+    line-height: 1.4em;
+    border-width: 400px;
+    
+
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    box-sizing:border-box;
+    outline: none;
+
+    
+
+}
+
+
+button {
+    color: #fff;
+    background: darkcyan;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    background: #446190;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(36, 36, 189);
+}
